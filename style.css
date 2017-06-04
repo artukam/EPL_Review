@@ -1,0 +1,296 @@
+.site-header {
+	background-color:#15003c;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.offense-header {
+	background-color:#FF5531;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.graph-container {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.logo-div {
+	padding-bottom:5px;
+}
+
+.Chelsea {
+	fill:#034694;
+	stroke-width:4;
+	stroke:#4680C3;
+}
+
+.Chelsea:hover {
+	fill:#065dc3;
+}
+
+.btn-chelsea-active {
+	background-color:#034694;
+	color:white;
+}
+
+.btn-chelsea-active:hover {
+	background-color:#065dc3;
+	color:white;
+}
+
+.btn-chelsea-inactive {
+	background-color:#757475;
+	color:white;
+}
+
+.btn-chelsea-inactive:hover {
+	background-color:#4E6794;
+	color:white;
+}
+
+.Manchester_U {
+	fill:#DA020E;
+	stroke-width:4;
+	stroke:#FFE500;
+}
+
+.Manchester_U:hover {
+	fill:#DA5E57
+}
+
+.btn-man-u-active {
+	background-color:#DA020E;
+	color:white;
+}
+
+.btn-man-u-active:hover {
+	background-color:#DA5E57;
+	color:white;
+}
+
+.btn-man-u-inactive {
+	background-color:#757475;
+	color:white;
+}
+
+.btn-man-u-inactive:hover {
+	background-color:#DA4951;
+	color:white;
+}
+
+.Arsenal {
+	fill:#9B8347;
+	stroke-width:4;
+	stroke:#ED1B24;
+}
+
+.Arsenal:hover {
+	fill:#9B8A6A;
+}
+
+.btn-arsenal-active {
+	background-color:#ED1B24;
+	color:white;
+}
+
+.btn-arsenal-active:hover {
+	background-color:#ED4545;
+	color:white;
+}
+
+.btn-arsenal-inactive {
+	background-color:#757475;
+	color:white;
+}
+
+.btn-arsenal-inactive:hover {
+	background-color:#ED4545;
+	color:white;
+}
+
+.Liverpool {
+	fill:#1E6464;
+	stroke-width:4;
+	stroke:#C31014;
+}
+
+.Liverpool:hover {
+	fill:#3F645F;
+}
+
+.btn-liverpool-active {
+	background-color:#C31014;
+	color:white;
+}
+
+.btn-liverpool-active:hover {
+	background-color:#C33F47;
+	color:white;
+}
+
+.btn-liverpool-inactive {
+	background-color:#757475;
+	color:white;
+}
+
+.btn-liverpool-inactive:hover {
+	background-color:#C33F47;
+	color:white;
+}
+
+.Manchester_City {
+	fill:#98C5E9;
+	stroke-width:4;
+	stroke:#00285E;
+}
+
+.Manchester_City:hover {
+	fill:#BCD4E9;
+}
+
+.btn-man-city-active {
+	background-color:#98C5E9;
+	color:white;
+}
+
+.btn-man-city-active:hover {
+	background-color:#BCD4E9;
+	color:white;
+}
+
+.btn-man-city-inactive {
+	background-color:#757475;
+	color:white;
+}
+
+.btn-man-city-inactive:hover {
+	background-color:#BCD4E9;
+	color:white;
+}
+
+#Tottenham {
+	color:#001C58;
+}
+
+.Tottenham {
+	fill:#FFFFFF;
+	stroke-width:4;
+	stroke:#001C58;
+}
+
+.Tottenham:hover {
+	fill:#FFFFFF;
+}
+
+.btn-tottenham-active {
+	background-color:#DBEBFF;
+	color:#001C58;
+	stroke-width:4;
+	stroke:#001C58;
+}
+
+.btn-tottenham-active:hover {
+	background-color:#91ABFF;
+	color:#001C58;
+}
+
+.btn-tottenham-inactive {
+	background-color:#757475;
+	color:001C58;
+	stroke-width:4;
+	stroke:#001C58;
+}
+
+.btn-tottenham-inactive:hover {
+	background-color:#91ABFF;
+	color:#001C58;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-players-inactive{
+	color:white;
+	background-color:#5C3F82;
+}
+
+.btn-players-inactive:hover{
+	color:white;
+	background-color:#9969D9;
+}
+
+.btn-players-active {
+	color:white;
+	background-color:#FF5531;
+}
+
+.btn-players-active:hover {
+	color:white;
+	background-color:#FF8368;
+}
+
+.axis text{
+	fill: #FF5531;
+}
+
+.axis path {
+	stroke: #FF5531;
+}
+
+.axis line {
+	stroke: #FF5531;
+}
+
+.Defender {
+	display:block;
+}
+
+.Midfielder {
+	display:block;
+}
+
+.Forward{
+	display:block;
+}
+
+.hide-label {
+	display:none;
+}
+
+.hide-label-year {
+	display:none;
+}
+
+.hide-label-team {
+	display:none;
+}
+
+.tool-tip {
+	position: absolute;
+	text-align: center;
+	width: 140px;
+	height: 55x;
+	padding: 2px;
+	font: 9px sans-serif;
+	color:white;
+	background-color: #15003c;
+	border: 0px;
+	border-radius: 10px;
+	pointer-events: none;
+}
+
+.tool-tip-text {
+	padding:-10px;
+	margin:1px;
+}

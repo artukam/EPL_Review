@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>English Premier League - In Review</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container_fluid">
+		<div class="row">
+			<div class="col-xs-12 site-header">
+				<img src="./img/site_logo.png" alt="EPL in Review Logo" class=".img-responsive center-block">
+			</div>
+		</div>
+	</div>
+	<div class="container_fluid">
+		<div class="row">
+			<div class="col-xs-12 offense-header">
+				<h3 class="text-center">Player offense efficiency</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container graph-container">
+		<div class="row">
+			<div class="col-xs-10">
+				<h4><small>Filter by teams:</small></h4>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-arsenal btn-arsenal-active" id="Arsenal"><img src="./img/Arsenal_button_logo.png" alt=""> Arsenal</button></div>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-chelsea btn-chelsea-active" id="Chelsea"><img src="./img/Chelsea_button_logo.png" alt=""> Chelsea</button></div>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-liverpool btn-liverpool-active" id="Liverpool"><img src="./img/Liverpool_button_logo.png" alt=""> Liverpool</button></div>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-man-city btn-man-city-active" id="Manchester_City"><img src="./img/Man_City_button_logo.png" alt=""> Manchester City</button></div>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-man-u btn-man-u-active" id="Manchester_U"><img src="./img/Man_U_button_logo.png" alt=""> Manchester United</button></div>
+				<div class="col-xs-3 logo-div"><button type="button" class="btn btn-block btn-tottenham btn-tottenham-active" id="Tottenham"><img src="./img/Tottenham_button_logo.png" alt=""> Tottenham</button></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">
+				<h4><small>Filter by position:</small></h4>
+				<div class="btn-group">
+					<button class="btn btn-players btn-players-active">Defender</button>
+					<button class="btn btn-players btn-players-active">Midfielder</button>
+					<button class="btn btn-players btn-players-active">Forward</button>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<h4><small>Filter by offense metric:</small></h4>
+				<select name="offense-metric" id="offense-toggle">
+					<option value="goals-scored-metric">Goals per game</option>
+					<option value="assists-metric">Assists per game</option>
+					<option value="goals-shots-metric">Goals per shot</option>
+					<option value="goals-target-metric">Goals per shot on target</option>
+				</select>
+			</div>
+			<div class="col-xs-3">
+				<h4><small>Filter by season:</small></h4>
+				<select name="data-year" id="metric-year">
+					<option value="2016">2016/2017</option>
+					<option value="2015">2015/2016</option>
+					<option value="2014">2014-2015</option>
+					<option value="2013">2013-2014</option>
+					<option value="2012">2012-2013</option>
+					<option value="2011">2011-2012</option>
+					<option value="2010">2010-2011</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<svg>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="./js/epl_stats.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
